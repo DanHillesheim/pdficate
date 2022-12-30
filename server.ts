@@ -133,10 +133,10 @@ const generatePdfs = (host: string, env: PrintEnv) => {
                 format: "a4",
                 path: filename,
                 margin: {
-                  top: "24px",
-                  right: "24px",
-                  bottom: "24px",
-                  left: "24px",
+                  top: "16pt",
+                  right: "16pt",
+                  bottom: "16pt",
+                  left: "16pt",
                 },
                 scale: 1,
               });
